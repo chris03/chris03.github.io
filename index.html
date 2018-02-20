@@ -13,6 +13,7 @@ title: Chris03
 	{% endfor %}
 </ul>
 
-{% for tag in site.categories %}
-<a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+### Categories
+{% for category in site.categories %}
+<a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a>
 {% endfor %}
