@@ -1,4 +1,4 @@
 name: Test
 markdown: kramdown
 permalink: /:title
-theme: minimal
+theme: jekyll-theme-minimal
