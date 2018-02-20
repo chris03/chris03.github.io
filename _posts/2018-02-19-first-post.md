@@ -2,7 +2,6 @@
 layout: post
 title: "A first post"
 tags: test stuff
-categories: test
 ---
 
 This is a first *post* with some `markdown`.
